@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/github.io/git-energy-volya/static/css/main.f855e6bc.css",
-    "main.js": "/github.io/git-energy-volya/static/js/main.d9391e6e.js",
-    "static/js/453.379386a2.chunk.js": "/github.io/git-energy-volya/static/js/453.379386a2.chunk.js",
-    "static/media/logo.svg": "/github.io/git-energy-volya/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/github.io/git-energy-volya/index.html",
-    "main.f855e6bc.css.map": "/github.io/git-energy-volya/static/css/main.f855e6bc.css.map",
-    "main.d9391e6e.js.map": "/github.io/git-energy-volya/static/js/main.d9391e6e.js.map",
-    "453.379386a2.chunk.js.map": "/github.io/git-energy-volya/static/js/453.379386a2.chunk.js.map"
+    "main.css": "/git-energy-volya/static/css/main.f855e6bc.css",
+    "main.js": "/git-energy-volya/static/js/main.5d6b6c41.js",
+    "static/js/453.379386a2.chunk.js": "/git-energy-volya/static/js/453.379386a2.chunk.js",
+    "static/media/logo.svg": "/git-energy-volya/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/git-energy-volya/index.html",
+    "main.f855e6bc.css.map": "/git-energy-volya/static/css/main.f855e6bc.css.map",
+    "main.5d6b6c41.js.map": "/git-energy-volya/static/js/main.5d6b6c41.js.map",
+    "453.379386a2.chunk.js.map": "/git-energy-volya/static/js/453.379386a2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.d9391e6e.js"
+    "static/js/main.5d6b6c41.js"
   ]
 }
