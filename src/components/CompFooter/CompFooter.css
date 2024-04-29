@@ -1,0 +1,113 @@
+footer{
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    width: 92vw;
+    transition: 1s;
+    text-align: center;
+    font-size: 2rem;
+    overflow: hidden;
+}
+
+footer .sot-seti{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1 1 auto;
+}
+
+footer .sot-set{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer img{
+    width: 60px;
+}
+
+footer .footer__p {
+    height: 60px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 92vw;
+    transition: 1s;
+}
+
+footer:hover .footer__p{
+    bottom: calc(100vh - (60px));
+}
+
+footer .infa{
+    height: calc(100vh - (120px));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .infa>div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer:hover {
+    height: calc(100vh - 60px);
+}
+
+.btn-linia{
+    position: relative;
+	font-size: 1.25rem;
+	text-decoration: none;
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0; bottom: -5px;
+        width: 0;
+        height: 3px;
+    }
+
+    &:hover:before {
+        width: 100%;
+    }
+
+    &::before {
+        transition: width 0.35s;
+    }
+}
+
+.footer__footer{
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__footer img{
+    height: 35px;
+    width: auto;
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+
+.reactICO{
+    animation: spin 10s linear 0s infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,192 @@
+:root {
+    --main-red-color: #fc1321;
+    --main-green-color: #b0fe30;
+    --main-yellow-color: #febc14;
+    --main-pink-color: #fe1ab4;
+    --main-footer-infa-color: #343434;
+    --main-footer-active-color: #191919;
+}
+
+/* sider */
+
+.sider{
+    background-color: var(--main-footer-active-color);
+}
+
+/* header */
+
+.header{
+    background-color: var(--main-footer-active-color);
+    color: rgb(255, 255, 255);
+}
+
+.header ul {
+    &::before {
+        background-color: rgba(0, 0, 0, 0)
+    }
+}
+
+.btn-linia button{
+    background-color: rgba(255, 0, 0, 0);
+    color: rgb(255, 255, 255);
+
+
+    &::before {
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+.btn-linia #оригінальний{
+    &:hover{
+        color: var(--main-red-color);
+    }
+
+    &::before {
+        background-color: var(--main-red-color);
+    }
+}
+
+.btn-linia  #ківі-полуниця{
+    &:hover{
+        color: var(--main-green-color);
+    }
+
+    &::before {
+        background-color: var(--main-green-color);
+    }
+}
+
+.btn-linia  #манго-апельсин{
+    &:hover{
+        color: var(--main-yellow-color);
+    }
+
+    &::before {
+        background-color: var(--main-yellow-color);
+    }
+}
+
+.btn-linia  #журавлина{
+    &:hover{
+        color: var(--main-pink-color);
+    }
+
+    &::before {
+        background-color: var(--main-pink-color);
+    }
+}
+
+.red #оригінальний {
+    color: var(--main-red-color);
+}
+
+.green #ківі-полуниця {
+    color: var(--main-green-color);
+}
+
+.yellow #манго-апельсин {
+    color: var(--main-yellow-color);
+}
+
+.pink #журавлина {
+    color: var(--main-pink-color);
+}
+
+/* footer */
+
+footer{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+footer a{
+    color: rgb(255, 255, 255);
+}
+
+#red footer a{
+    &:hover{
+        color: rgb(255, 255, 255);
+    }
+
+    &::before {
+        background-color: var(--main-red-color);
+    }
+}
+
+#green footer a{
+    &:hover{
+        color: rgb(255, 255, 255);
+    }
+
+    &::before {
+        background-color: var(--main-green-color);
+    }
+}
+
+#yellow footer a{
+    &:hover{
+        color: rgb(255, 255, 255);
+    }
+
+    &::before {
+        background-color: var(--main-yellow-color);
+    }
+}
+
+#pink footer a{
+    &:hover{
+        color: rgb(255, 255, 255);
+    }
+
+    &::before {
+        background-color: var(--main-pink-color);
+    }
+}
+
+#red footer{
+    background-color: var(--main-red-color);
+}
+
+#green footer{
+    background-color: var(--main-green-color);
+}
+
+#yellow footer{
+    background-color: var(--main-yellow-color);
+}
+
+#pink footer{
+    background-color: var(--main-pink-color);
+}
+
+
+footer .infa{
+    background-color: var(--main-footer-infa-color);
+}
+
+
+.btn-linia{
+    &::before {
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+#red .footer__p{
+    background-color: var(--main-red-color);
+}
+
+#green .footer__p{
+    background-color: var(--main-green-color);
+}
+
+#yellow .footer__p{
+    background-color: var(--main-yellow-color);
+}
+
+#pink .footer__p{
+    background-color: var(--main-pink-color);
+}
+
+.footer__footer{
+    background-color: var(--main-footer-active-color);
+}
