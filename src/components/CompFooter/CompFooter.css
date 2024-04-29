@@ -35,6 +35,10 @@ footer .footer__p {
     transition: 1s;
 }
 
+footer .footer__p p {
+    margin: 0;
+}
+
 footer:hover .footer__p{
     bottom: calc(100vh - (60px));
 }
@@ -44,6 +48,10 @@ footer .infa{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+footer .infa img{
+    transition: 0.5s;
 }
 
 footer .infa>div{
@@ -60,6 +68,7 @@ footer:hover {
     position: relative;
 	font-size: 1.25rem;
 	text-decoration: none;
+    margin: 0;
 
     &::before {
         content: '';
@@ -88,6 +97,7 @@ footer:hover {
 .footer__footer img{
     height: 35px;
     width: auto;
+    transition: 0.4s;
 }
 
 @keyframes spin {

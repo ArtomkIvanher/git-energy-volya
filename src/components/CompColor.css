@@ -164,6 +164,27 @@ footer .infa{
     background-color: var(--main-footer-infa-color);
 }
 
+footer .infa img{
+    background-color: rgb(255, 255, 255);
+}
+
+#red a:hover img{
+    background-color: var(--main-red-color);
+}
+
+#green a:hover img{
+    background-color: var(--main-green-color);
+}
+
+#yellow a:hover img{
+    background-color: var(--main-yellow-color);
+}
+
+#pink a:hover img{
+    background-color: var(--main-pink-color);
+}
+
+
 
 .btn-linia{
     &::before {
@@ -189,4 +210,24 @@ footer .infa{
 
 .footer__footer{
     background-color: var(--main-footer-active-color);
+}
+
+footer .footer__footer img{
+    background-color: rgb(255, 255, 255);
+}
+
+#red .footer__footer img:hover{
+    background-color: var(--main-red-color);
+}
+
+#green .footer__footer img:hover{
+    background-color: var(--main-green-color);
+}
+
+#yellow .footer__footer img:hover{
+    background-color: var(--main-yellow-color);
+}
+
+#pink .footer__footer img:hover{
+    background-color: var(--main-pink-color);
 }

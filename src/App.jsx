@@ -7,6 +7,7 @@ import { dataE } from "./data";
 import "./components/Button/Button.css"
 import CompFooter from "./components/CompFooter/CompFooter";
 import "./components/CompColor.css"
+import "./App.css"
 
 export default function App() {
   const [stateBtn, setStateBtn] = useState('red')
