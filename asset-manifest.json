@@ -1,25 +1,29 @@
 {
   "files": {
-    "main.css": "/git-energy-volya/static/css/main.d11f317a.css",
-    "main.js": "/git-energy-volya/static/js/main.35de58f1.js",
+    "main.css": "/git-energy-volya/static/css/main.a7b3f14b.css",
+    "main.js": "/git-energy-volya/static/js/main.e0637b23.js",
     "static/js/453.379386a2.chunk.js": "/git-energy-volya/static/js/453.379386a2.chunk.js",
+    "static/media/volya-pink-video.mp4": "/git-energy-volya/static/media/volya-pink-video.a42f6498b214f4cbd56d.mp4",
+    "static/media/volya-red-video.mp4": "/git-energy-volya/static/media/volya-red-video.a42f6498b214f4cbd56d.mp4",
+    "static/media/volya-green-video.mp4": "/git-energy-volya/static/media/volya-green-video.e8abf55e7aa066bd1e9c.mp4",
+    "static/media/volya-yellow-video.mp4": "/git-energy-volya/static/media/volya-yellow-video.e8abf55e7aa066bd1e9c.mp4",
     "static/media/cssICO.png": "/git-energy-volya/static/media/cssICO.da467066b7852be283fd.png",
-    "static/media/volya-pink-v8.png": "/git-energy-volya/static/media/volya-pink-v8.56a4d2d09932ff3fda10.png",
-    "static/media/volya-dgovta-v11.png": "/git-energy-volya/static/media/volya-dgovta-v11.6cd5708c26a206f5cdad.png",
-    "static/media/volya-zelena-v5.png": "/git-energy-volya/static/media/volya-zelena-v5.ecdb56e6b5bcfede07be.png",
-    "static/media/volya-red-v6.png": "/git-energy-volya/static/media/volya-red-v6.05b6259e057f2dd7605c.png",
+    "static/media/volya-pink-img.png": "/git-energy-volya/static/media/volya-pink-img.56a4d2d09932ff3fda10.png",
+    "static/media/volya-yellow-img.png": "/git-energy-volya/static/media/volya-yellow-img.6cd5708c26a206f5cdad.png",
+    "static/media/volya-green-img.png": "/git-energy-volya/static/media/volya-green-img.ecdb56e6b5bcfede07be.png",
+    "static/media/volya-red-img.png": "/git-energy-volya/static/media/volya-red-img.05b6259e057f2dd7605c.png",
     "static/media/reactICO.png": "/git-energy-volya/static/media/reactICO.639da2064bf782470b98.png",
     "static/media/telegramICO.png": "/git-energy-volya/static/media/telegramICO.9b334ea59f7afc2c956d.png",
     "static/media/gitHubICO.png": "/git-energy-volya/static/media/gitHubICO.70f074c5677cbb339059.png",
     "static/media/htmlICO.png": "/git-energy-volya/static/media/htmlICO.3a6fa789ada552595e64.png",
     "static/media/steamICO.png": "/git-energy-volya/static/media/steamICO.6a7f94ed12aa032c4fcb.png",
     "index.html": "/git-energy-volya/index.html",
-    "main.d11f317a.css.map": "/git-energy-volya/static/css/main.d11f317a.css.map",
-    "main.35de58f1.js.map": "/git-energy-volya/static/js/main.35de58f1.js.map",
+    "main.a7b3f14b.css.map": "/git-energy-volya/static/css/main.a7b3f14b.css.map",
+    "main.e0637b23.js.map": "/git-energy-volya/static/js/main.e0637b23.js.map",
     "453.379386a2.chunk.js.map": "/git-energy-volya/static/js/453.379386a2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d11f317a.css",
-    "static/js/main.35de58f1.js"
+    "static/css/main.a7b3f14b.css",
+    "static/js/main.e0637b23.js"
   ]
 }
