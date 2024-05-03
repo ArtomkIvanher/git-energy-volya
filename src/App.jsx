@@ -24,8 +24,8 @@ export default function App() {
         <Layout.Header style={{height: "60px", zIndex: 100}} className="header">
           <ul className="btn-linia">
             <But onClick={() => handleClick("red")}>{dataE.redName}</But>
-            <But onClick={() => handleClick("green")}>{dataE.greenName}</But>
             <But onClick={() => handleClick("yellow")}>{dataE.yellowName}</But>
+            <But onClick={() => handleClick("green")}>{dataE.greenName}</But>
             <But onClick={() => handleClick("pink")}>{dataE.pinkName}</But>
           </ul>
         </Layout.Header>

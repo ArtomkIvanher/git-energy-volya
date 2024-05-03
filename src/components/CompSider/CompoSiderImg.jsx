@@ -1,8 +1,8 @@
 import "./CompSider.css";
-import redImg from "../../img/volya-red-v6.png";
-import greenImg from "../../img/volya-zelena-v5.png";
-import yellowImg from "../../img/volya-dgovta-v11.png";
-import pinkImg from "../../img/volya-pink-v8.png";
+import redImg from "../../img/volya-red-img.png";
+import yellowImg from "../../img/volya-yellow-img.png";
+import greenImg from "../../img/volya-green-img.png";
+import pinkImg from "../../img/volya-pink-img.png";
 
 export default function CompSiderImg({ children }) {
   const images = { redImg, greenImg, yellowImg, pinkImg };
