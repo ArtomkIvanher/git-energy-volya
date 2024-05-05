@@ -8,7 +8,7 @@ export default function CompSiderImg({ children }) {
   const images = { redImg, greenImg, yellowImg, pinkImg };
 
   return (
-    <div className="img-div-anima">
+    <div className="sider-anima">
       <img src={images[children + "Img"]} alt="" />
     </div>
   );

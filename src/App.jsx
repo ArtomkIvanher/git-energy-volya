@@ -14,7 +14,6 @@ export default function App() {
 
   function handleClick(type) {
     setStateBtn(type)
-
   }
 
   return (
@@ -22,7 +21,7 @@ export default function App() {
       <CompSider>{stateBtn}</CompSider>
       <Layout className={stateBtn}>
         <Layout.Header style={{height: "60px", zIndex: 100}} className="header">
-          <ul className="btn-linia">
+          <ul className="ul__btn">
             <But onClick={() => handleClick("red")}>{dataE.redName}</But>
             <But onClick={() => handleClick("yellow")}>{dataE.yellowName}</But>
             <But onClick={() => handleClick("green")}>{dataE.greenName}</But>

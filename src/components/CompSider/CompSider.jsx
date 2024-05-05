@@ -11,8 +11,10 @@ export default function CompSider({children}) {
       <CompSiderImg>{children}</CompSiderImg>
       <CompSiderImg>{children}</CompSiderImg>
       <CompSiderImg>{children}</CompSiderImg>
-    
-      
+      <CompSiderImg>{children}</CompSiderImg>
+      <CompSiderImg>{children}</CompSiderImg>
+      <CompSiderImg>{children}</CompSiderImg>
+      <CompSiderImg>{children}</CompSiderImg>
     </div>
   );
 }

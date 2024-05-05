@@ -26,59 +26,45 @@
     color: rgb(255, 255, 255);
 }
 
-.header ul {
-    &::before {
-        background-color: rgba(0, 0, 0, 0)
-    }
-}
+.ul__btn {
+    #оригінальний{
+        &:hover{
+            color: var(--main-red-color);
+        }
 
-.btn-linia button{
-    background-color: rgba(255, 0, 0, 0);
-    color: rgb(255, 255, 255);
-
-
-    &::before {
-        background-color: rgb(255, 255, 255);
-    }
-}
-
-.btn-linia #оригінальний{
-    &:hover{
-        color: var(--main-red-color);
+        &::before {
+            background-color: var(--main-red-color);
+        }
     }
 
-    &::before {
-        background-color: var(--main-red-color);
-    }
-}
-
-.btn-linia  #ківі-полуниця{
-    &:hover{
-        color: var(--main-green-color);
-    }
-
-    &::before {
-        background-color: var(--main-green-color);
-    }
-}
-
-.btn-linia  #манго-апельсин{
-    &:hover{
-        color: var(--main-yellow-color);
+    #ківі-полуниця{
+        &:hover{
+            color: var(--main-green-color);
+        }
+    
+        &::before {
+            background-color: var(--main-green-color);
+        }
     }
 
-    &::before {
-        background-color: var(--main-yellow-color);
+    #манго-апельсин{
+        &:hover{
+            color: var(--main-yellow-color);
+        }
+    
+        &::before {
+            background-color: var(--main-yellow-color);
+        }
     }
-}
 
-.btn-linia  #журавлина{
-    &:hover{
-        color: var(--main-pink-color);
-    }
-
-    &::before {
-        background-color: var(--main-pink-color);
+    #журавлина{
+        &:hover{
+            color: var(--main-pink-color);
+        }
+    
+        &::before {
+            background-color: var(--main-pink-color);
+        }
     }
 }
 

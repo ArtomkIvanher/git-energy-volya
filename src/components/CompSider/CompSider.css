@@ -1,38 +1,38 @@
-@keyframes img-anima {
-    0%{
+@keyframes sider-anima {
+    from{
         position: relative;
         bottom: calc(8vw * (38400 / 3877) / 2);
     }
-    100%{
+    to{
         position: relative;
         bottom: 0vw;
     }
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
 }
 
 .sider{
     text-align: center;
     width: 8vw;
     height: 100vh;
-    display: flex;flex-direction: column-reverse;
+    display: flex;
+    flex-direction: column-reverse;
     z-index: 1;
+
+    .sider-anima{
+        bottom: 0vw;
+        overflow: hidden;
+        width: 8vw;
+        min-height: calc(8vw * (38400 / 3877) / 2);
+    }
+
+    img {
+        width: 100%;
+        position: relative;
+        animation: sider-anima 7s linear 0s infinite;
+    }
 }
-
-.img-div-anima{
-    bottom: 0vw;
-    overflow: hidden;
-    width: 8vw;
-    min-height: calc(8vw * (38400 / 3877) / 2);
-}
-
-.img-div-anima img {
-    width: 100%;
-    position: relative;
-    animation-name: img-anima;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-    animation-fill-mode: forwards;
-    animation-timing-function: cubic-bezier(1, 1, 1, 1);
-}
-
-
 

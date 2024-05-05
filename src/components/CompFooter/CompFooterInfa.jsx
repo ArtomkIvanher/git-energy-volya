@@ -2,6 +2,7 @@ import "./CompFooter.css";
 import telegramICO from "../../img/telegramICO.png";
 import gitHubICO from "../../img/gitHubICO.png";
 import steamICO from "../../img/steamICO.png";
+import "../btnLinia.css";
 import "../CompColor.css";
 import { dataE, dataI } from "../../data";
 
