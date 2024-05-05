@@ -89,137 +89,93 @@
 footer{
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-}
 
-footer a{
-    color: rgb(255, 255, 255);
-}
-
-#red footer a{
-    &:hover{
+    a{
         color: rgb(255, 255, 255);
     }
 
-    &::before {
-        background-color: var(--main-red-color);
-    }
-}
-
-#green footer a{
-    &:hover{
-        color: rgb(255, 255, 255);
-    }
-
-    &::before {
-        background-color: var(--main-green-color);
-    }
-}
-
-#yellow footer a{
-    &:hover{
-        color: rgb(255, 255, 255);
-    }
-
-    &::before {
-        background-color: var(--main-yellow-color);
-    }
-}
-
-#pink footer a{
-    &:hover{
-        color: rgb(255, 255, 255);
-    }
-
-    &::before {
-        background-color: var(--main-pink-color);
-    }
-}
-
-#red footer{
-    background-color: var(--main-red-color);
-}
-
-#green footer{
-    background-color: var(--main-green-color);
-}
-
-#yellow footer{
-    background-color: var(--main-yellow-color);
-}
-
-#pink footer{
-    background-color: var(--main-pink-color);
-}
-
-
-footer .infa{
-    background-color: var(--main-footer-infa-color);
-}
-
-footer .infa img{
-    background-color: rgb(255, 255, 255);
-}
-
-#red a:hover img{
-    background-color: var(--main-red-color);
-}
-
-#green a:hover img{
-    background-color: var(--main-green-color);
-}
-
-#yellow a:hover img{
-    background-color: var(--main-yellow-color);
-}
-
-#pink a:hover img{
-    background-color: var(--main-pink-color);
-}
-
-
-
-.btn-linia{
-    &::before {
+    img{
         background-color: rgb(255, 255, 255);
     }
-}
 
-#red .footer__p{
-    background-color: var(--main-red-color);
-}
+    .infa{
+        background-color: var(--main-footer-infa-color);
+    }
 
-#green .footer__p{
-    background-color: var(--main-green-color);
-}
+    .footer__footer{
+        background-color: var(--main-footer-active-color);
+    }
+} 
 
-#yellow .footer__p{
-    background-color: var(--main-yellow-color);
-}
+#red footer{
+    .footer__p{
+        background-color: var(--main-red-color);
+    }
 
-#pink .footer__p{
-    background-color: var(--main-pink-color);
+    a{
+        &:hover{
+            color: rgb(255, 255, 255);
+            img{
+                background-color: var(--main-red-color);
+            }
+        }
+    
+        &::before {
+            background-color: var(--main-red-color);
+        }
+    }
 }
+#green footer{
+    .footer__p{
+        background-color: var(--main-green-color);
+    }
 
-.footer__footer{
-    background-color: var(--main-footer-active-color);
+    a{
+        &:hover{
+            color: rgb(255, 255, 255);
+            img{
+                background-color: var(--main-green-color);
+            }
+        }
+    
+        &::before {
+            background-color: var(--main-green-color);
+        }
+    }
 }
+#yellow footer{
+    .footer__p{
+        background-color: var(--main-yellow-color);
+    }
 
-footer .footer__footer img{
-    background-color: rgb(255, 255, 255);
+    a{
+        &:hover{
+            color: rgb(255, 255, 255);
+            img{
+                background-color: var(--main-yellow-color);
+            }
+        }
+    
+        &::before {
+            background-color: var(--main-yellow-color);
+        }
+    }
 }
+#pink footer{
+    .footer__p{
+        background-color: var(--main-pink-color);
+    }
 
-#red .footer__footer img:hover{
-    background-color: var(--main-red-color);
-}
-
-#green .footer__footer img:hover{
-    background-color: var(--main-green-color);
-}
-
-#yellow .footer__footer img:hover{
-    background-color: var(--main-yellow-color);
-}
-
-#pink .footer__footer img:hover{
-    background-color: var(--main-pink-color);
+    a{
+        &:hover{
+            color: rgb(255, 255, 255);
+            img{
+                background-color: var(--main-pink-color);
+            }
+        }
+    
+        &::before {
+            background-color: var(--main-pink-color);
+        }
+    }
 }
