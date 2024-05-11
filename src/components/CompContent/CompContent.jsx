@@ -7,7 +7,7 @@ import CompContentVideo from "./CompContentVideo";
 export default function CompContent({ children }) {
   return (
     <Layout.Content className="content">
-      <CompContentVideo>{children}</CompContentVideo>
+      {/* <CompContentVideo>{children}</CompContentVideo> */}
       <div className="content__text">
         <p>{dataE[children + "Text1"]}</p>
         <p>{dataE[children + "Text2"]}</p>
