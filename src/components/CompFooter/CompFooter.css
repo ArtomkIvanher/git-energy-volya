@@ -24,6 +24,7 @@ footer{
         bottom: 0;
         width: 92vw;
         transition: 1s;
+        z-index: 3;
     }
     .footer__p p {
         margin: 0;
@@ -49,6 +50,9 @@ footer{
         height: 100%;
         display: flex;
         flex-direction: column;
+        p{
+            margin: 0;
+        }
     }
     .sot-seti{
         display: flex;
