@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/git-energy-volya/static/css/main.0c1ab365.css",
-    "main.js": "/git-energy-volya/static/js/main.cfa15753.js",
+    "main.js": "/git-energy-volya/static/js/main.8be3e53c.js",
     "static/js/453.379386a2.chunk.js": "/git-energy-volya/static/js/453.379386a2.chunk.js",
     "static/media/volya-pink-video.mp4": "/git-energy-volya/static/media/volya-pink-video.a42f6498b214f4cbd56d.mp4",
     "static/media/volya-red-video.mp4": "/git-energy-volya/static/media/volya-red-video.a42f6498b214f4cbd56d.mp4",
@@ -19,11 +19,11 @@
     "static/media/steamICO.png": "/git-energy-volya/static/media/steamICO.6a7f94ed12aa032c4fcb.png",
     "index.html": "/git-energy-volya/index.html",
     "main.0c1ab365.css.map": "/git-energy-volya/static/css/main.0c1ab365.css.map",
-    "main.cfa15753.js.map": "/git-energy-volya/static/js/main.cfa15753.js.map",
+    "main.8be3e53c.js.map": "/git-energy-volya/static/js/main.8be3e53c.js.map",
     "453.379386a2.chunk.js.map": "/git-energy-volya/static/js/453.379386a2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c1ab365.css",
-    "static/js/main.cfa15753.js"
+    "static/js/main.8be3e53c.js"
   ]
 }
